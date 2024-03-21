@@ -2,7 +2,7 @@ import Navabar from "./components/Navabar";
 import Form from "./components/Form";
 import About from "./components/About";
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { HashRouter as Router, Routes, Route} from "react-router-dom";
 import Alert from "./components/Alert";
 
 function App() {
